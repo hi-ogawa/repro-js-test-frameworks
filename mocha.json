@@ -1,0 +1,27 @@
+{
+  "stats": {
+    "suites": 0,
+    "tests": 0,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2024-01-03T13:18:58.107Z",
+    "end": "2024-01-03T13:18:58.108Z",
+    "duration": 1
+  },
+  "tests": [],
+  "pending": [],
+  "failures": [
+    {
+      "title": "\"before all\" hook for \"test\"",
+      "fullTitle": "\"before all\" hook for \"test\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: error\n    at Context.<anonymous> (tests/mocha.spec.js:2:9)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "error"
+      }
+    }
+  ],
+  "passes": []
+}
