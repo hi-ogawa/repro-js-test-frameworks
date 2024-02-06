@@ -5,6 +5,7 @@
   "scripts": {
     "vitest": "vitest tests/vitest.test.ts",
     "jest": "jest --watchAll --testMatch '**/tests/jest.test.cjs'",
+    "bun": "bun test tests/bun.test.ts",
     "playwright-json": "PLAYWRIGHT_JSON_OUTPUT_NAME=playwright.json playwright test tests/example.spec.js --reporter json",
     "node-test": "node --test tests/node.spec.mjs",
     "tap-json": "tap tests/tap.spec.mjs | tap-json",
@@ -23,6 +24,7 @@
   "devDependencies": {
     "@jest/globals": "^29.7.0",
     "@playwright/test": "^1.39.0",
+    "@types/bun": "^1.0.4",
     "jsdom": "^22.1.0",
     "vitest": "^1.0.3"
   },
