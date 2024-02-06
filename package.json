@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "vitest": "vitest tests/vitest.test.ts",
-    "jest": "jest --watchAll --testMatch '**/tests/jest.test.cjs'",
+    "jest": "jest --watchAll --testMatch '**/tests/jest/**/*.test.cjs'",
     "bun": "bun test tests/bun.test.ts",
     "playwright-json": "PLAYWRIGHT_JSON_OUTPUT_NAME=playwright.json playwright test tests/example.spec.js --reporter json",
     "node-test": "node --test tests/node.spec.mjs",
